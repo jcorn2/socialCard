@@ -1,0 +1,9 @@
+.Header {
+    width: 100%;
+    display: flex;
+}
+
+.Header-User-Info {
+    width: 85%;
+    margin: auto 0;
+}
