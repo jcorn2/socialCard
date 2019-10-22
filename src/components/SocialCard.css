@@ -2,4 +2,21 @@
     height: 400px;
     width: 640px;
     border: solid 1px black;
+    display: grid;
+    grid-template: 
+        [row1-start] "header header header" 40px [row1-end]
+        [row2-start] "none picture picture" 200px [row2-end]
+        [row3-start] "none caption caption" 125px [row3-end]
+        [row4-start] "none buttons buttons" 40px [row4-end]
+        / 40px auto 40px;
+    row-gap: 5px;
+}
+
+.Social-Card-Caption {
+    grid-area: picture;
+}
+
+.Social-Card-Caption-Image {
+    height: 100%;
+    width: 100%;
 }

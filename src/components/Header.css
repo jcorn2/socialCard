@@ -1,6 +1,7 @@
 .Header {
     width: 100%;
     display: flex;
+    grid-area: header;
 }
 
 .Header-User-Info {
