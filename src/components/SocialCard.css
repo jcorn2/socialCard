@@ -9,14 +9,28 @@
         [row3-start] "none caption caption" 125px [row3-end]
         [row4-start] "none buttons buttons" 40px [row4-end]
         / 40px auto 40px;
-    row-gap: 5px;
 }
 
-.Social-Card-Caption {
+.Social-Card-Content {
+    margin-top: 5px;
     grid-area: picture;
 }
 
-.Social-Card-Caption-Image {
+.Social-Card-Content-Image {
     height: 100%;
     width: 100%;
+}
+
+.Social-Card-Caption {
+    grid-area: caption;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+
+.Social-Card-Caption-Title {
+    margin: 10px auto;
+}
+
+.Social-Card-Caption-Nickname {
+    color: rgb(85, 85, 85);
 }

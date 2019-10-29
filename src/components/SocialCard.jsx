@@ -10,8 +10,13 @@ class SocialCard extends React.Component {
     return (
       <div className="Social-Card">
         <Header name="James Cornelius" userName="BamBam" />
+        <div className="Social-Card-Content">
+          <img src={OhWonder} alt="Oh Wonder" className="Social-Card-Content-Image" />
+        </div>
         <div className="Social-Card-Caption">
-            <img src={OhWonder} alt="Oh Wonder" className="Social-Card-Caption-Image" />
+          <h4 className="Social-Card-Caption-Title">Hallelujah by Oh Wonder</h4>
+          <p className="Social-Card-Caption-Text">This is a great song. It really inspires me to practice my web development skills. I also really like better now by them as well.</p>
+          <p className="Social-Card-Caption-Nickname">dev.to</p>
         </div>
       </div>
     );
