@@ -1,5 +1,4 @@
 .Social-Card {
-    height: 400px;
     width: 640px;
     border: solid 1px black;
     display: grid;
@@ -33,4 +32,16 @@
 
 .Social-Card-Caption-Nickname {
     color: rgb(85, 85, 85);
+}
+
+.Social-Card-Buttons {
+    grid-area: buttons;
+    display: flex;
+    height: 100%;
+}
+
+.Social-Card-Button {
+    height: 20px;
+    width: 20px;
+    margin: auto 60px auto 0;
 }
